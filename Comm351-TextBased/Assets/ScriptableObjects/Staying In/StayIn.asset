@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: StayIn
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: You desided to stay inside where its nice and cozy.
-  OptionAData: {fileID: 0}
-  OptionADescription: 
-  OptionBData: {fileID: 0}
-  OptionBDescription: 
+  _senarioDescription: 'You decided to stay inside where it''s nice and cozy. As
+    you begin to relish in your decision, you start to feel a rumble in your stomach.
+    You must consume something so what will that be tonight, you could make a snack
+    or should you make a more filling dinner? '
+  OptionAData: {fileID: 11400000, guid: bdf3b5a8587a7eb4f9d5804b005c4c07, type: 2}
+  OptionADescription: Snack
+  OptionBData: {fileID: 11400000, guid: 6d4f7824997798140aa874a43ee2851e, type: 2}
+  OptionBDescription: Dinner
   OptionCData: {fileID: 0}
   OptionCDescription: 

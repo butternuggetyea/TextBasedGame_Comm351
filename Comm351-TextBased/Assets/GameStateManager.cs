@@ -16,50 +16,81 @@ public class GameStateManager : MonoBehaviour
 
     public float _speed;
 
+    bool _canSkip;
+
     private void LoadGameState() 
     {
-        foreach (var button in _optionButtons) 
+        foreach (var button in _optionButtons)
         {
-            button.gameObject.SetActive( false);
+            button.gameObject.SetActive(false);
             button.onClick.RemoveAllListeners();
         }
+
         _senarioSpriteRenderer.sprite = gameStateData._senarioImage;
 
         StopAllCoroutines();
 
         StartCoroutine(LoadText());
+    }
 
 
-
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && _canSkip) 
+        {
+            _canSkip = false;
+            StopAllCoroutines();
+            _senarioDescription.text = gameStateData._senarioDescription;
+            LoadButtons();
+        }
     }
 
     public IEnumerator LoadText() 
     {
         _senarioDescription.text = null;
-
+        _canSkip = true;
         foreach (char letter in gameStateData._senarioDescription) 
         {
             _senarioDescription.text += letter;
             GetComponent<AudioManager>().PlayText();
             yield return new WaitForSecondsRealtime(_speed);
         }
+        _canSkip = false;
         LoadButtons();
     }
 
 
     private void LoadOptionA() 
     {
+        foreach (var button in _optionButtons)
+        {
+            button.gameObject.SetActive(false);
+            button.onClick.RemoveAllListeners();
+        }
+
         gameStateData = gameStateData.OptionAData;
         LoadGameState();
     }
 
     private void LoadOptionB()
     {
+        foreach (var button in _optionButtons)
+        {
+            button.gameObject.SetActive(false);
+            button.onClick.RemoveAllListeners();
+        }
+
         gameStateData = gameStateData.OptionBData;
         LoadGameState();
     }
     private void LoadOptionC()
     {
+        foreach (var button in _optionButtons)
+        {
+            button.gameObject.SetActive(false);
+            button.onClick.RemoveAllListeners();
+        }
+
         gameStateData = gameStateData.OptionCData;
         LoadGameState();
     }
