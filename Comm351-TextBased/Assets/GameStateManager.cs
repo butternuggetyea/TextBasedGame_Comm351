@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,8 @@ public class GameStateManager : MonoBehaviour
 
     public Button[] _optionButtons;
 
+    public float _speed;
+
     private void LoadGameState() 
     {
         foreach (var button in _optionButtons) 
@@ -20,14 +23,29 @@ public class GameStateManager : MonoBehaviour
             button.gameObject.SetActive( false);
             button.onClick.RemoveAllListeners();
         }
-        LoadButtons();
-
         _senarioSpriteRenderer.sprite = gameStateData._senarioImage;
-        _senarioDescription.text = gameStateData._senarioDescription;
+
+        StopAllCoroutines();
+
+        StartCoroutine(LoadText());
 
 
 
     }
+
+    public IEnumerator LoadText() 
+    {
+        _senarioDescription.text = null;
+
+        foreach (char letter in gameStateData._senarioDescription) 
+        {
+            _senarioDescription.text += letter;
+            GetComponent<AudioManager>().PlayText();
+            yield return new WaitForSecondsRealtime(_speed);
+        }
+        LoadButtons();
+    }
+
 
     private void LoadOptionA() 
     {
