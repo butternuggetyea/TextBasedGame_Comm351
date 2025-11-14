@@ -22,6 +22,7 @@ public class GameStateManager : MonoBehaviour
     {
         foreach (var button in _optionButtons)
         {
+           
             button.gameObject.SetActive(false);
             button.onClick.RemoveAllListeners();
         }

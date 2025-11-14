@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: Celery&PB
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioDescription: Now that you have your celery it's time to choose your evening
+    activity. Will it be watching a film or should you read one of your books you
+    said you would get to eventually?
+  OptionAData: {fileID: 11400000, guid: 2f5b83a8086437e4b962c652ff6f62e6, type: 2}
+  OptionADescription: Movie
+  OptionBData: {fileID: 11400000, guid: 03bea796fbf0ed948afe702789edf324, type: 2}
+  OptionBDescription: Book
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

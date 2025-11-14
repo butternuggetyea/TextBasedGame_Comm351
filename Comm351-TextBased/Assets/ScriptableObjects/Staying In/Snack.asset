@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Snack
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: You decided on a snack
-  OptionAData: {fileID: 0}
-  OptionADescription: 
-  OptionBData: {fileID: 0}
-  OptionBDescription: 
+  _senarioDescription: You decided to make a snack. As you look around your bare
+    kitchen you seem to have few options for snackage. Should you pop up some popcorn
+    or have some celery and peanut butter?
+  OptionAData: {fileID: 11400000, guid: d7458372f0144ee4b981d216a310a357, type: 2}
+  OptionADescription: Popcorn
+  OptionBData: {fileID: 11400000, guid: ce2514af5be88b343a1ddf69334d604b, type: 2}
+  OptionBDescription: Celery & PB
   OptionCData: {fileID: 0}
   OptionCDescription: 

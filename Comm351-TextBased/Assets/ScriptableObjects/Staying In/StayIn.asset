@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _senarioDescription: 'You decided to stay inside where it''s nice and cozy. As
-    you begin to relish in your decision, you start to feel a rumble in your stomach.
+    you begin to relish in your decision, you start feeling a rumble in your stomach.
     You must consume something so what will that be tonight, you could make a snack
     or should you make a more filling dinner? '
   OptionAData: {fileID: 11400000, guid: bdf3b5a8587a7eb4f9d5804b005c4c07, type: 2}

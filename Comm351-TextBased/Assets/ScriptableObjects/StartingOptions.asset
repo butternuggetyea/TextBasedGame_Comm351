@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: StartingOptions
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: You find youself at home alone on halloween night, crisp air
-    and leafs falling all around. should you go for a stroll or stay in for the night?
+  _senarioDescription: You find yourself at home alone on halloween night, crisp
+    air and leaves falling all around. Should you go for a stroll or stay in for
+    the night?
   OptionAData: {fileID: 11400000, guid: 5ad4289c40a577c429fb2129a20ea7d5, type: 2}
   OptionADescription: Stay In
   OptionBData: {fileID: 11400000, guid: c6b63b3c074d98647b135262874a90f1, type: 2}
