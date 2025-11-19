@@ -16,9 +16,9 @@ MonoBehaviour:
   _senarioDescription: 'You put on Sadam Andlers movie Sad Ligmor the "funniest movie
     of this year". As soon as the opening credits finished Knock!! Knock!! You hear
     a knock at the door but like the movie just started so should you ignore it? '
-  OptionAData: {fileID: 0}
+  OptionAData: {fileID: 11400000, guid: 773526305b0eec9498e610db5b5715ea, type: 2}
   OptionADescription: Ignore
-  OptionBData: {fileID: 0}
+  OptionBData: {fileID: 11400000, guid: 35c1e66fdd9b805418786662cdcedd11, type: 2}
   OptionBDescription: Answer
   OptionCData: {fileID: 0}
   OptionCDescription: 

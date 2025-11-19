@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: FrontOpen
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioDescription: "You go into the living room, as you enter you feel a breeze
+    and look over\u2026 The door\u2026 Its wide open\u2026 You go up to the door,
+    shut it tight, and lock it up. You start feeling a little uneasy and start contemplating
+    calling 911, or should you take it upon yourself to investigate."
+  OptionAData: {fileID: 11400000, guid: 227fba2e32438d340ad8266245ac668b, type: 2}
+  OptionADescription: Call 911
+  OptionBData: {fileID: 11400000, guid: e96df05838fbf1f4991add20adbada05, type: 2}
+  OptionBDescription: Investigate
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

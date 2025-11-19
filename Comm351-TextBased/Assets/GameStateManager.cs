@@ -50,10 +50,15 @@ public class GameStateManager : MonoBehaviour
     {
         _senarioDescription.text = null;
         _canSkip = true;
+        bool _play = true;
         foreach (char letter in gameStateData._senarioDescription) 
         {
             _senarioDescription.text += letter;
-            GetComponent<AudioManager>().PlayText();
+            if (_play)
+            {
+                GetComponent<AudioManager>().PlayText();
+            }
+            _play = !_play;
             yield return new WaitForSecondsRealtime(_speed);
         }
         _canSkip = false;
