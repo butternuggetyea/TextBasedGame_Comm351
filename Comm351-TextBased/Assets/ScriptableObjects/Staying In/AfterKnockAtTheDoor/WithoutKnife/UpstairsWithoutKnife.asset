@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: UpstairsWithoutKnife
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: 'As you slowly creep up the stairs, you come to your landing,
+    where you have to decide: check your bedroom first or check the study first.
+    *Creak* Before you could decide, you hear a noise from your bedroom. Slowly,
+    you push open the door to your bedroom, which you are greeted by nothing. You
+    think to yourself that it must have been the house settling, and that you need
+    to relax. Should you lay down and try to relax or should you look around a little
+    bit longer? '
+  OptionAData: {fileID: 11400000, guid: b8477098822b0cf4d815267dcb9b9a7a, type: 2}
+  OptionADescription: Relax
+  OptionBData: {fileID: 11400000, guid: ab51bfe27cbbc2a43914a5b07608c9ee, type: 2}
+  OptionBDescription: Look Around
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

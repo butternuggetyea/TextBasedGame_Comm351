@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: EnterRoomAfterLookWithKnife
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: Entering through your window, you peer under your bed and
+    can definitely tell there is something or someone there. Now would be the time
+    to make a decision. Do you acknowledge them and give up your element of surprise
+    or do you create a plan to catch them by surprise?
+  OptionAData: {fileID: 11400000, guid: 0f7870d5611d3c740b82ad6457e47f3b, type: 2}
+  OptionADescription: Acknowledge
+  OptionBData: {fileID: 11400000, guid: a97b0a5ce08e10a458375ebdd275a7a1, type: 2}
+  OptionBDescription: Surprise
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

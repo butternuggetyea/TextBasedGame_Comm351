@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Popcorn
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 21300000, guid: 8e5d1f83f7f991048b559d9b831cf322, type: 3}
   _senarioDescription: Now that you have your popcorn it's time to choose your evening
     activity. Will it be watching a film or should you read one of your books you
     said you would get to eventually?

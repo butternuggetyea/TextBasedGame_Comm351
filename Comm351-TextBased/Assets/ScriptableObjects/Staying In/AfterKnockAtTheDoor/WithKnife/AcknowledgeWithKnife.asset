@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: AcknowledgeWithKnife
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: With your knife in hand a new wave of confidence overcomes
+    you. Your final decision is neigh, Attack immediately or call out to them.
+  OptionAData: {fileID: 11400000, guid: fa04bfa8ae19b7648a6006c882d560d1, type: 2}
+  OptionADescription: Quick Attack
+  OptionBData: {fileID: 11400000, guid: 1b16c5ee0f7cf7c43850bbb295c5b2be, type: 2}
+  OptionBDescription: War Cry
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

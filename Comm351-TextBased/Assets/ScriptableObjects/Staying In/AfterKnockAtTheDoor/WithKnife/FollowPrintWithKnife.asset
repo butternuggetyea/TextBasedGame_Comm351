@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: FollowPrintWithKnife
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: 'As you step onto the roof, a gust of wind pushes you off
+    balance, you quickly stab your knife into the roof saving yourself from slipping
+    off the roof. Maybe this is a sign to go back? '
+  OptionAData: {fileID: 11400000, guid: 049b883652e97be4caa1befd4b6c9d66, type: 2}
+  OptionADescription: Continue
+  OptionBData: {fileID: 11400000, guid: 21b1cda3d8362f143b748e10c2360e43, type: 2}
+  OptionBDescription: Go Back
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

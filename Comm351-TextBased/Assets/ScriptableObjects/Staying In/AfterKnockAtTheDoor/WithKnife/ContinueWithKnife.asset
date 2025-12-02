@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: ContinueWithKnife
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: No, you must continue forward. As you slowly and carefully
+    round the corner, you see that the bedroom window is wide open as well. Looking
+    into your room, nothing seems to be out of place, but the vibe is now extremely
+    eerie. Should you enter through the window or look a bit longer from afar?
+  OptionAData: {fileID: 11400000, guid: 0348705b33218d542a4d8605119e66b0, type: 2}
+  OptionADescription: Enter
+  OptionBData: {fileID: 11400000, guid: 3bab1380ea3b46846b7a3aeb34f7ed0d, type: 2}
+  OptionBDescription: Look
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

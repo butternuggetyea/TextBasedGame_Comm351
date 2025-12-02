@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: PutOff
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: "About 15 minutes passed and you can't seem to stay awake
-    \u201C*Crash* *Thud*\u201D. What the hell!? That noise came from the back yard,
-    should you check it out or ignore and deal with that tomorrow."
-  OptionAData: {fileID: 0}
-  OptionADescription: Look
-  OptionBData: {fileID: 0}
-  OptionBDescription: Put Off
-  OptionCData: {fileID: 0}
-  OptionCDescription: 
+  _forground: {fileID: 0}
+  _senarioDescription: "You think to yourself that you will deal with that tomor
+    - \u201C*Slam*\u201D. Before you could even finish that thought, a noise from
+    inside the house. Should you check this floor, upstairs, or the basement first?"
+  OptionAData: {fileID: 11400000, guid: c3aefe3b61a9f614ea4a186260c36bab, type: 2}
+  OptionADescription: Upstairs
+  OptionBData: {fileID: 11400000, guid: 2c014e4586bd51e4583ded485a916f54, type: 2}
+  OptionBDescription: This Floor
+  OptionCData: {fileID: 11400000, guid: c07d98ae936424d48ba62d19d2510062, type: 2}
+  OptionCDescription: Basement

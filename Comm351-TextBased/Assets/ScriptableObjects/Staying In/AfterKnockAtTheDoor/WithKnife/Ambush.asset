@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: Ambush
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: "Deciding to ambush the creature, you leave your bedroom while
+    exclaiming, \u201CI guess I'll take a look downstairs\u201D, then go to hide
+    behind the study room door. After a few minutes of silence, you hear footsteps
+    approaching. As you peek from behind the door, there you see a tall black creature
+    with a human-like body, slim in stature, but with a powerful aura. This is a
+    creature straight out of an eldritch horror film, and you are about to trick
+    it successfully.  As it approaches the stairs, you see your window of opportunity
+    and take it. In one quick and powerful motion, you swing open the door, smack
+    the creature, stunning it just long enough for you to push it down the stairs.
+    As the final thud of it smacking against the floor rings through the halls, so
+    does a deafening scream."
+  OptionAData: {fileID: 11400000, guid: 6cdfdfb2fb059a241bdf8aab0c667117, type: 2}
+  OptionADescription: Continue
+  OptionBData: {fileID: 0}
+  OptionBDescription: 
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

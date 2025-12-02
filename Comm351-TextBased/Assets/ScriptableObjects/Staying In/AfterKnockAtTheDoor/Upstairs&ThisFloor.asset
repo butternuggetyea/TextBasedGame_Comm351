@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: Upstairs&ThisFloor
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: You go back upstairs and look on the ground for more footprints.
+    Carefully scanning the floor, you spot a single print directing you upstairs.
+    Immediately, chills hit your spine as you think of the possibility of someone
+    in your room. Should you continue looking around down here or investigate upstairs?
+  OptionAData: {fileID: 11400000, guid: c3aefe3b61a9f614ea4a186260c36bab, type: 2}
+  OptionADescription: Upstairs
+  OptionBData: {fileID: 11400000, guid: 2c014e4586bd51e4583ded485a916f54, type: 2}
+  OptionBDescription: This floor
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

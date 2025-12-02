@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: 911
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: b785afa8e164fe24d9a03cf00777cd8c, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: You run over to the landline and begin to dial 9 - 1 - 1 as
+    you put the phone up to your ear, but nothing, not a sound comes from the phone.
+    You look down following the cord only to realize that it has been cut. An immediate
+    panic sets in knowing that something has deliberately done this. Knowing no one
+    will be coming to help you, you must take matters into your own hands. Should
+    you check this floor, upstairs, or the basement first?
+  OptionAData: {fileID: 11400000, guid: 2c014e4586bd51e4583ded485a916f54, type: 2}
+  OptionADescription: This floor
+  OptionBData: {fileID: 11400000, guid: c3aefe3b61a9f614ea4a186260c36bab, type: 2}
+  OptionBDescription: Upstairs
+  OptionCData: {fileID: 11400000, guid: c07d98ae936424d48ba62d19d2510062, type: 2}
+  OptionCDescription: Basement

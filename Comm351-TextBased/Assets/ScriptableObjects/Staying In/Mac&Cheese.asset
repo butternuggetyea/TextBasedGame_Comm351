@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Mac&Cheese
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 21300000, guid: 26071b37659518c4d81ce454c47a93c4, type: 3}
   _senarioDescription: After that satisfactory meal it's time to choose your evening
     activity. Will it be watching a film or should you read one of your books you
     said you would get to eventually?

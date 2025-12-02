@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: SurpriseWithKnife
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
+  _senarioDescription: With your knife in hand, your inner assassin awakes. Your
+    final decision is neigh, Lay in bed and pretend to sleep, or set up an ambush.
+  OptionAData: {fileID: 11400000, guid: 6ed52e24ce2bfd547b3349910ede272d, type: 2}
+  OptionADescription: Trick
+  OptionBData: {fileID: 11400000, guid: 6d2f4de1a3e55cb42b257b15f7a6574b, type: 2}
+  OptionBDescription: Ambush
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

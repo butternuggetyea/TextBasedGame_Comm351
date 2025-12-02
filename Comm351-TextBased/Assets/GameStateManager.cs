@@ -10,6 +10,9 @@ public class GameStateManager : MonoBehaviour
 
     public SpriteRenderer _senarioSpriteRenderer;
 
+    public SpriteRenderer _forground;
+
+
     public TMP_Text _senarioDescription;
 
     public Button[] _optionButtons;
@@ -28,6 +31,16 @@ public class GameStateManager : MonoBehaviour
         }
 
         _senarioSpriteRenderer.sprite = gameStateData._senarioImage;
+
+        if (gameStateData._forground == null)
+        {
+            _forground.enabled = false;
+        }
+        else 
+        {
+            _forground.enabled = true;
+            _forground.sprite = gameStateData._forground;
+        }
 
         StopAllCoroutines();
 

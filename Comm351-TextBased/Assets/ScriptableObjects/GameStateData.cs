@@ -4,6 +4,8 @@ using UnityEngine;
 public class GameStateData : ScriptableObject
 {
     public Sprite _senarioImage;
+    public Sprite _forground;
+
     public string _senarioDescription;
 
     public GameStateData OptionAData;

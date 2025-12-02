@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: Movie
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioImage: {fileID: 21300000, guid: fdd1ce96732c63647a5542abd69889f7, type: 3}
+  _forground: {fileID: 0}
   _senarioDescription: You begin scrolling Fulu to find the perfect movie to set
     the tone of your evening, after a few minutes you find two movies you would like
     to watch. Should you watch the horror movie and set a spooky mood or the comedy
