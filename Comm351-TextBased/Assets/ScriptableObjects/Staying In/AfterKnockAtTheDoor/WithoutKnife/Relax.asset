@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: "ou couldn't find anything out of the ordinary while investigating
+  _senarioDescription: "You couldn't find anything out of the ordinary while investigating
     your home, yet you couldn't take your mind off of the topic. Trying to relax,
     you lay down in bed, shut your eyes, and start to drift asleep. As you are halfway
     out of consciousness, you feel something graze your leg\u2026 A hand, coming

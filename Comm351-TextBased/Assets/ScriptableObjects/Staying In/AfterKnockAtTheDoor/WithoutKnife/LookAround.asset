@@ -23,7 +23,7 @@ MonoBehaviour:
     to another dimension, framed by razor-sharp teeth. In one quick motion, this
     creature swallows you whole. (Not even the bones - Ending) '
   OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
-  OptionADescription: Play Again
+  OptionADescription: Play Again?
   OptionBData: {fileID: 0}
   OptionBDescription: 
   OptionCData: {fileID: 0}
