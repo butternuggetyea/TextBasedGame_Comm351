@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: FrontOpen
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
   _senarioDescription: "You go into the living room, as you enter you feel a breeze
-    and look over\u2026 The door\u2026 Its wide open\u2026 You go up to the door,
+    and look over\u2026 The door\u2026 It's wide open\u2026 You go up to the door,
     shut it tight, and lock it up. You start feeling a little uneasy and start contemplating
     calling 911, or should you take it upon yourself to investigate."
   OptionAData: {fileID: 11400000, guid: 227fba2e32438d340ad8266245ac668b, type: 2}

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Answer
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: "You answer the door reluctantly, and as you creek the door
+  _forground: {fileID: 0}
+  _senarioDescription: "You answer the door reluctantly, and as you creak the door
     open, standing there is a five year old with their parents. \u201CTrick or Treat\u201D
     he says. Oh shit you forgot its halloween and dont have any candy to give them.
     Should you explain that you don't have anything or should you rush to the kitchen

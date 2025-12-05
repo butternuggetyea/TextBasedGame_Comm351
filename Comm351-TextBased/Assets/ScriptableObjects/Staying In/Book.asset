@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Book
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 0}
   _senarioDescription: You look at your pile of unread books on your bookshelf and
-    reduce it down to two choices. What will it be, a nice fiction novel, or a spicy
-    romance novel?
+    reduce your options down to two choices. What will it be, a nice fiction novel
+    or a spicy romance novel?
   OptionAData: {fileID: 11400000, guid: a14c0093aca4f5642a538fbab97640f9, type: 2}
   OptionADescription: Fiction
   OptionBData: {fileID: 11400000, guid: 1f81fa778ba6e184d95fd8edfe184778, type: 2}

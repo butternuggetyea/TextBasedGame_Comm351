@@ -17,7 +17,7 @@ MonoBehaviour:
   _senarioDescription: 'You double back to the kitchen to make sure you didn''t miss
     anything. Looking around you dont see anything out of the ordinary. No footprints,
     no broken anything, and the door is still locked and shut. You do see the knives
-    on the counter and realize that one is missing, should you also take a knife
+    on the counter and realize that one is missing. Should you also take a knife
     for protection? '
   OptionAData: {fileID: 11400000, guid: 5af87b2cd84c53343936e176209f097d, type: 2}
   OptionADescription: Take Knife

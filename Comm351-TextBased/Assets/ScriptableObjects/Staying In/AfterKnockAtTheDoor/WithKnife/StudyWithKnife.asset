@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: You slowly creep the door to the study open, and immediately
+  _senarioDescription: You slowly crack open the door to the study open, and immediately
     you notice the window is wide open, papers are everywhere, and your shelves have
     been knocked over. As you approach the window to close it, you see a footprint
     on the windowsill directing you out to the roof. Should you follow the print
