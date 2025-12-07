@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: SurpriseWithKnife
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _forground: {fileID: 0}
+  _senarioImage: {fileID: 21300000, guid: 46172351de19d204e8e40b07cbe1343f, type: 3}
+  _forground: {fileID: 21300000, guid: c25055af9fa165d4cb8422716b7618c5, type: 3}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: With your knife in hand, your inner assassin awakes. Your
     final decision is neigh, Lay in bed and pretend to sleep, or set up an ambush.
   OptionAData: {fileID: 11400000, guid: 6ed52e24ce2bfd547b3349910ede272d, type: 2}

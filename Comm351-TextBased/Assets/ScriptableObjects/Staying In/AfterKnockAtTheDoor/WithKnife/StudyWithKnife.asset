@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: You slowly crack open the door to the study open, and immediately
-    you notice the window is wide open, papers are everywhere, and your shelves have
-    been knocked over. As you approach the window to close it, you see a footprint
-    on the windowsill directing you out to the roof. Should you follow the print
-    or back up and check out your bedroom?
+  _soundclip: {fileID: 8300000, guid: dafe55f7d6f773a43bf8fbc71e627456, type: 3}
+  _playSoundIndex: 28
+  _senarioDescription: With shaky hands you slowly crack open the door to the study
+    open, and immediately you notice the window is wide open, papers are everywhere,
+    and your shelves have been knocked over. As you approach the window to close
+    it, you see a footprint on the windowsill directing you out to the roof. Should
+    you follow the print or back up and check out your bedroom?
   OptionAData: {fileID: 11400000, guid: acc8755589ed7cc489c9e54795057f24, type: 2}
   OptionADescription: Follow
   OptionBData: {fileID: 11400000, guid: 5bdb0853d40ffe34cbc7cd3ca8e99a0a, type: 2}

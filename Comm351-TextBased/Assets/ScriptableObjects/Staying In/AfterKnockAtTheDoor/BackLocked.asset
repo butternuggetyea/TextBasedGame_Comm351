@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 74d63b7b54e92bf4ea6b771f6402d1c6, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: Well you are standing right next to the back door and cannot
+  _senarioDescription: You are already standing next to the back door and cannot
     see anything wrong with it and it remains locked.
   OptionAData: {fileID: 11400000, guid: b1aa5b9fa9bcd2c49aef6fcedc70353e, type: 2}
   OptionADescription: Check Front

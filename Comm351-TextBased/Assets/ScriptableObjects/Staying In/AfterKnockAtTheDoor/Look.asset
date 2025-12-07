@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Look
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: "You go over to see what had happened, flipping on the light
-    to the back patio you see the trash cans knocked over, must have been the \u201C*Slam*\u201D.
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: 6e51d466e9496ab46ad1774e0a982d2f, type: 3}
+  _playSoundIndex: 119
+  _senarioDescription: You go over to see what had happened, flipping on the light
+    to the back patio you see the trash cans knocked over, must have been the- *Slam!*
     Before you could even finish that thought a noise from inside the house. Should
-    you check the front or back door first?"
+    you check the front or back door first?
   OptionAData: {fileID: 11400000, guid: 790d68fe67974cf41b22ff26cafcc1da, type: 2}
   OptionADescription: Back
   OptionBData: {fileID: 11400000, guid: b1aa5b9fa9bcd2c49aef6fcedc70353e, type: 2}

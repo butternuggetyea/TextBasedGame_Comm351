@@ -16,10 +16,10 @@ MonoBehaviour:
   _forground: {fileID: 0}
   _senarioDescription: 'You look closely at the details of your room and still nothing
     catches your eye. As you were about to stop and decide your next plan of action,
-    you caught a glimpse of what looked to be a reflection of moonlight from under
-    your bed. You think to yourself, there isn''t or shouldn''t be anything under
-    your bed. Creeped out and a bit shaky, you make your next decision: enter through
-    the window or go back to the study window. '
+    you caught a glimpse of reflecting moonlight from under your bed. You think to
+    yourself, there isn''t or shouldn''t be anything under your bed. Creeped out
+    and a bit shaky, you make your next decision. Enter through the window or go
+    back to the study window. '
   OptionAData: {fileID: 11400000, guid: bcc2c9139f771b84493fb0708d6c22ea, type: 2}
   OptionADescription: Enter
   OptionBData: {fileID: 11400000, guid: 21b1cda3d8362f143b748e10c2360e43, type: 2}

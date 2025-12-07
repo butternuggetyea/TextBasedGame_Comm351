@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: b785afa8e164fe24d9a03cf00777cd8c, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: You decided to make a snack. As you look around your bare
-    kitchen you seem to have few options for snackage. Should you pop up some popcorn
-    or have some celery and peanut butter?
+  _senarioDescription: As you look around your bare kitchen you seem to have few
+    options for snackage. Should you pop some popcorn or have some celery and peanut
+    butter?
   OptionAData: {fileID: 11400000, guid: d7458372f0144ee4b981d216a310a357, type: 2}
   OptionADescription: Popcorn
   OptionBData: {fileID: 11400000, guid: ce2514af5be88b343a1ddf69334d604b, type: 2}

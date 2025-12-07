@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: dafe55f7d6f773a43bf8fbc71e627456, type: 3}
+  _playSoundIndex: 135
   _senarioDescription: 'As you slowly creep up the stairs, you come to your landing,
-    where you have to decide: check your bedroom first or check the study first.
+    where you have to decide. Check your bedroom first or check the study first.
     *Creak* Before you could decide, you hear a noise from your bedroom. Slowly,
     you push open the door to your bedroom, which you are greeted by nothing. You
     think to yourself that it must have been the house settling, and that you need

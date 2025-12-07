@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: No Knife
+  _senarioDescription: You decide to leave your knife behind and feel as if you're
+    not ready to take the life of another. Immediately you hear a noise coming from
+    upstairs, now would be a good time to check it out.
   OptionAData: {fileID: 11400000, guid: c3aefe3b61a9f614ea4a186260c36bab, type: 2}
   OptionADescription: Go Upstairs
   OptionBData: {fileID: 0}

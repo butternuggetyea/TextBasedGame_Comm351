@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: StartingOptions
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: d2065951c2d3c674bb607be4c83f86b3, type: 3}
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: You find yourself at home alone on halloween night, crisp
-    air and leaves falling all around. Should you go for a stroll or stay in for
-    the night?
-  OptionAData: {fileID: 11400000, guid: 5ad4289c40a577c429fb2129a20ea7d5, type: 2}
-  OptionADescription: Stay In
-  OptionBData: {fileID: 11400000, guid: c6b63b3c074d98647b135262874a90f1, type: 2}
-  OptionBDescription: Go Out
+    air and leaves falling all around. Looks like the weather is bad, so you decide
+    that you should stay in for the night.
+  OptionAData: {fileID: 0}
+  OptionADescription: 
+  OptionBData: {fileID: 11400000, guid: 5ad4289c40a577c429fb2129a20ea7d5, type: 2}
+  OptionBDescription: Stay In
   OptionCData: {fileID: 0}
   OptionCDescription: 

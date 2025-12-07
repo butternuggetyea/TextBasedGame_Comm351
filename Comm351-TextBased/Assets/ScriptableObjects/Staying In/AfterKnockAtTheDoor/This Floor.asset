@@ -16,9 +16,9 @@ MonoBehaviour:
   _forground: {fileID: 0}
   _senarioDescription: 'You double back to the kitchen to make sure you didn''t miss
     anything. Looking around you dont see anything out of the ordinary. No footprints,
-    no broken anything, and the door is still locked and shut. You do see the knives
-    on the counter and realize that one is missing. Should you also take a knife
-    for protection? '
+    nothing is broken, and the door is still locked and shut. You glance over the
+    counter when you notice the knives on the counter and realize that one is missing.
+    Should you take a knife for protection? '
   OptionAData: {fileID: 11400000, guid: 5af87b2cd84c53343936e176209f097d, type: 2}
   OptionADescription: Take Knife
   OptionBData: {fileID: 11400000, guid: 1c2ce51cae9235c41961b0610688002a, type: 2}

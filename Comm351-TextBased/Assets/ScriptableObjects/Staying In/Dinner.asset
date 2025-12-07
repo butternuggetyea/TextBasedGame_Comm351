@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: b785afa8e164fe24d9a03cf00777cd8c, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: You decided to make some dinner. Looking through your cupboards
-    you find a box of mac and cheese, which sounds just fine for the night but you
-    remembered that you have some chicken in the fridge that you could make instead.
-    Should you have mac and cheese or make some chicken and potatoes.
+  _senarioDescription: Looking through your cupboards you find a box of mac and cheese,
+    which sounds just fine for the night but you remembered that you have some chicken
+    in the fridge that you could make instead. Should you have mac and cheese or
+    make some chicken and potatoes.
   OptionAData: {fileID: 11400000, guid: 371c1c0a35d59ce4d9f57f5f1676d925, type: 2}
   OptionADescription: Mac & Cheese
   OptionBData: {fileID: 11400000, guid: f7166c783bad5ad47b7115897d350dea, type: 2}

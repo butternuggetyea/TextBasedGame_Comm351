@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: 'The deafening screech rings in your brain, causing dizziness,
+  _senarioDescription: The deafening screech rings in your brain, causing dizziness,
     fatigue, and eventually causing you to pass out. As you awake, you make your
     way downstairs to check for a body, but nothing remains. The door you had previously
     closed is now wide open, and footprints can be seen leading to the forest.  Leaving
-    you wondering if it may return. ( Return to the woods - Ending) '
+    you wondering if it may return. \nReturn to the woods - Ending
   OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
   OptionADescription: Play Again?
   OptionBData: {fileID: 0}

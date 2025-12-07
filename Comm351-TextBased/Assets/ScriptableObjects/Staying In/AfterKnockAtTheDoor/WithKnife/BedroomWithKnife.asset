@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 46172351de19d204e8e40b07cbe1343f, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: 'You enter your room slowly, analyzing every inch of the space. 
-    You take one step towards your bed and immediately notice something move underneath
-    it. Do you acknowledge them and give up your element of surprise, or do you create
-    a plan to catch them by surprise? '
+  _soundclip: {fileID: 8300000, guid: c54e495db0f86754889cf56cf569e4d2, type: 3}
+  _playSoundIndex: 92
+  _senarioDescription: 'Entire body trembling, you enter your room slowly, analyzing
+    every inch of the space.  You take one step towards your bed and immediately
+    notice something move underneath it. Do you acknowledge them and give up your
+    element of surprise, or do you create a plan to catch them by surprise? '
   OptionAData: {fileID: 11400000, guid: 0f7870d5611d3c740b82ad6457e47f3b, type: 2}
   OptionADescription: Acknowledge
   OptionBData: {fileID: 11400000, guid: a97b0a5ce08e10a458375ebdd275a7a1, type: 2}

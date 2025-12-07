@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: b785afa8e164fe24d9a03cf00777cd8c, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: 'You decided to stay inside where it''s nice and cozy. As
-    you begin to relish in your decision, you start feeling a rumble in your stomach.
-    You must consume something so what will that be tonight, you could make a snack
-    or should you make a more filling dinner? '
+    you relish in your decision, you begin to feel a rumble in your stomach. You
+    must consume something so what will that be tonight, you could make a snack or
+    should you make a more filling dinner? '
   OptionAData: {fileID: 11400000, guid: bdf3b5a8587a7eb4f9d5804b005c4c07, type: 2}
   OptionADescription: Snack
   OptionBData: {fileID: 11400000, guid: 6d4f7824997798140aa874a43ee2851e, type: 2}

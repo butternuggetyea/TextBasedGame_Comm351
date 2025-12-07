@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Explain
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: 'You explain that you don''t have any candy to the child and
-    as they begin to cry you close your door and shut the light off outside and go
-    back to what you were doing and about 30 minutes later you start to feel sleepy.
+  _forground: {fileID: 0}
+  _senarioDescription: 'You explain that you don''t have any candy to the child.
+    As they begin to cry you close your door and shut the light off outside and go
+    back to what you were doing. About 30 minutes later you start to feel sleepy.
     Should you continue or go to sleep now? '
   OptionAData: {fileID: 11400000, guid: 1c5ee113b1d377344ab26f8d76d489e3, type: 2}
   OptionADescription: Sleep

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: b785afa8e164fe24d9a03cf00777cd8c, type: 3}
   _forground: {fileID: 21300000, guid: c25055af9fa165d4cb8422716b7618c5, type: 3}
-  _senarioDescription: You take your knife and feel like you're ready to take on
+  _senarioDescription: You pick up the knife and feel like you're ready to take on
     whatever may be in your home. Immediately you hear a noise coming from upstairs,
     now would be a good time to check it out.
   OptionAData: {fileID: 11400000, guid: 2facc6e066c71eb4e9d4ad33ebb57cd6, type: 2}

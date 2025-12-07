@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: FindSomthing
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: "You run into the kitchen and the first thing that catches
-    your eye is a bright red apple sitting on the counter. You quickly grab it and
-    run back to the door to give the child their treat.\u201DTank you\u201D he says.
+  _forground: {fileID: 0}
+  _senarioDescription: "You run into the kitchen, the first thing that catches your
+    eye is a bright red apple sitting on the counter. You quickly grab it and run
+    back to the door to give the child their treat. \u201DTank you\u201D he says.
     You go back to what you were doing and about 30 minutes later you start to feel
     sleepy. Should you continue or go to sleep now? "
   OptionAData: {fileID: 11400000, guid: 1c5ee113b1d377344ab26f8d76d489e3, type: 2}

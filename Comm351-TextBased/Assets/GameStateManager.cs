@@ -29,7 +29,7 @@ public class GameStateManager : MonoBehaviour
             button.gameObject.SetActive(false);
             button.onClick.RemoveAllListeners();
         }
-
+        GetComponent<AudioManager>().StopAllEffects();
         _senarioSpriteRenderer.sprite = gameStateData._senarioImage;
 
         if (gameStateData._forground == null)
@@ -64,9 +64,20 @@ public class GameStateManager : MonoBehaviour
         _senarioDescription.text = null;
         _canSkip = true;
         bool _play = true;
+        int index = 0;
         foreach (char letter in gameStateData._senarioDescription) 
         {
             _senarioDescription.text += letter;
+
+            if (gameStateData._playSoundIndex == index ) 
+            {
+                if (gameStateData._soundclip != null) 
+                {
+                    GetComponent<AudioManager>().PlayOnCharIndex(gameStateData._soundclip);
+                }
+            }
+            index++;
+
             if (_play)
             {
                 GetComponent<AudioManager>().PlayText();

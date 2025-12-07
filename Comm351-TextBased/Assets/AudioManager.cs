@@ -4,6 +4,8 @@ public class AudioManager : MonoBehaviour
 {
     AudioSource _source;
 
+    public AudioSource _soundEffects;
+
     public float volume;
 
     public AudioClip[] _clips;
@@ -19,6 +21,18 @@ public class AudioManager : MonoBehaviour
        
         _source.PlayOneShot(_clips[2]);
 
+    }
+
+    public void StopAllEffects() 
+    {
+        _soundEffects.Stop();
+    }
+
+    public void PlayOnCharIndex(AudioClip clip) 
+    {
+        _soundEffects.volume = volume / 100;
+        _soundEffects.pitch = 1;
+        _soundEffects.PlayOneShot(clip);
     }
 
     public void PlayText() 

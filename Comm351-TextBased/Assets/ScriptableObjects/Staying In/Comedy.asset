@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 8f7241226b35ac84195cb2250ab06693, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: 4ad2f023402185c42b74bcfdbc00cb84, type: 3}
+  _playSoundIndex: 116
   _senarioDescription: 'You put on Sadam Andlers movie Sad Ligmor the "funniest movie
-    of this year". As soon as the opening credits finished Knock!! Knock!! You hear
-    a knock at the door but like the movie just started so should you ignore it? '
+    of this year". As soon as the opening credits finished-  Knock!! Knock!! You
+    hear a knock at the door just as the movie started. Should you ignore it? '
   OptionAData: {fileID: 11400000, guid: 773526305b0eec9498e610db5b5715ea, type: 2}
   OptionADescription: Ignore
   OptionBData: {fileID: 11400000, guid: 35c1e66fdd9b805418786662cdcedd11, type: 2}

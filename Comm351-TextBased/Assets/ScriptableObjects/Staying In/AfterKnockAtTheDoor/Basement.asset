@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Basement
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _senarioDescription: 'You flick on the light in the basement, walk halfway down
+  _forground: {fileID: 0}
+  _senarioDescription: You flick on the light in the basement, walk halfway down
     the stairs, and take a scan of the room. Nothing seems out of place here, same
     leaky pipes and musty air. Walking deeper down the stairs, you notice a few boot
-    prints tracking from a puddle of water towards the stairs. It couldn''t have
-    been more than an hour ago that this had happened. One thing is for certain,
-    though: someone has been here recently. Go back upstairs and look elsewhere.'
+    prints tracking from a puddle of water towards the stairs. It couldn't have been
+    more than an hour ago that this had happened. One thing is for certain though.
+    Someone has been here recently.
   OptionAData: {fileID: 11400000, guid: ee7f3914699ae3049be669ab3369fac9, type: 2}
   OptionADescription: Go Back
   OptionBData: {fileID: 0}

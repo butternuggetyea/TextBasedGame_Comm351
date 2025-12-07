@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Celery&PB
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _forground: {fileID: 21300000, guid: 69c5491d7bebff746b3a89689a92e46a, type: 3}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: Now that you have your celery it's time to choose your evening
     activity. Will it be watching a film or should you read one of your books you
     said you would get to eventually?

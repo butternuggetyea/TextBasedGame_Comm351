@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: 0004ed934b45a6845b840b3f16273e3d, type: 3}
+  _playSoundIndex: 54
   _senarioDescription: About 15 minutes passed and you can't seem to stay awake.
-    *Crash!* *Thud!*. What the hell!? That noise came from the back yard, should
-    you check it out or ignore and deal with that tomorrow.
+    *Crash! Thud!* What the hell!? That noise came from the back yard, should you
+    check it out or ignore and deal with that tomorrow.
   OptionAData: {fileID: 11400000, guid: 1e658ce09aa7404458b16f9a0514e41e, type: 2}
   OptionADescription: Look
   OptionBData: {fileID: 11400000, guid: 573788f5b2457474ba3434bec5e12453, type: 2}

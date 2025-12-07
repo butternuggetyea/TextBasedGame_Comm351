@@ -14,14 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
   _forground: {fileID: 0}
-  _senarioDescription: 'You start to back up back through the window, crawling back
-    through. As you climb back onto the desk in front of the window, you knock over
-    your lamp. Bending down to pick it up, as you stand back up, there in front of
-    you stands some blackened creature with bright glowing eyes, blinding you for
-    a second, all the time it needed to push you back out the window, with the roof
-    as slick as it was, You fall down to the ground, knocking yourself out. You awake
-    several hours later, not outside but in bed. Leaving you wondering if any of
-    that happened at all.  (Cliche it was all a dream - Ending) '
+  _senarioDescription: 'You head back through the window, crawling into the study
+    room. As you climb onto the desk in front of the window, you accidentally knock
+    over your lamp. Bending down to pick it up then upon standing up, there in front
+    of you stands a blackened creature with bright glowing eyes, blinding you for
+    a second. This was all the time it needed for it to push you back through the
+    window. With the roof as slick as it was, You fall down to the ground, knocking
+    out upon impact. You awake several hours later, not outside but in bed. Leaving
+    you wondering if any of that happened at all.  \nCliche it was all a dream -
+    Ending '
   OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
   OptionADescription: Play Again
   OptionBData: {fileID: 0}
