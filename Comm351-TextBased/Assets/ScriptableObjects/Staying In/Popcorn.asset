@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: Popcorn
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioImage: {fileID: 21300000, guid: e5f68ad006857704f9ef318ad7d1312e, type: 3}
   _forground: {fileID: 21300000, guid: 8e5d1f83f7f991048b559d9b831cf322, type: 3}
   _soundclip: {fileID: 8300000, guid: 433214b521d8a994686736bf2d914af3, type: 3}
   _playSoundIndex: 24

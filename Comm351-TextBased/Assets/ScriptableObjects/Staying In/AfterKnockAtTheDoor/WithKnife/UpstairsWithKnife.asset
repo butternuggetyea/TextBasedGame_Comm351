@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: UpstairsWithKnife
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioImage: {fileID: 21300000, guid: d92bcdc89c0763546ab715d9abe47570, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: As you slowly creep up the stairs, you come to the landing,
     where you have to decide. Check your bedroom first or check the study first.
   OptionAData: {fileID: 11400000, guid: 5bdb0853d40ffe34cbc7cd3ca8e99a0a, type: 2}

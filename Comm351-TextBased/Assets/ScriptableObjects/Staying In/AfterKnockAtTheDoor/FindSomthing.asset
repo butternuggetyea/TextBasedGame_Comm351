@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: FindSomthing
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _forground: {fileID: 0}
+  _senarioImage: {fileID: 21300000, guid: 62180da163500ef4f8de3b8dba025640, type: 3}
+  _forground: {fileID: 21300000, guid: 72f5c4dd65f80bd44906b2c07109a836, type: 3}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: "You run into the kitchen, the first thing that catches your
     eye is a bright red apple sitting on the counter. You quickly grab it and run
     back to the door to give the child their treat. \u201DTank you\u201D he says.

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: Explain
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioImage: {fileID: 21300000, guid: 62180da163500ef4f8de3b8dba025640, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: 'You explain that you don''t have any candy to the child.
     As they begin to cry you close your door and shut the light off outside and go
     back to what you were doing. About 30 minutes later you start to feel sleepy.

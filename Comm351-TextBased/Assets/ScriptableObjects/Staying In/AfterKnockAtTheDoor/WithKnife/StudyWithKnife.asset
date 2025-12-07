@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: StudyWithKnife
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _forground: {fileID: 0}
+  _senarioImage: {fileID: 21300000, guid: 11c7d93fceeb4784fa9e2928b2bf7728, type: 3}
+  _forground: {fileID: 21300000, guid: f7fe7aaa07cfe4b46843f37783c742f6, type: 3}
   _soundclip: {fileID: 8300000, guid: dafe55f7d6f773a43bf8fbc71e627456, type: 3}
   _playSoundIndex: 28
   _senarioDescription: With shaky hands you slowly crack open the door to the study

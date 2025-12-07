@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: QuickAttackWithKnife
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
-  _forground: {fileID: 0}
+  _senarioImage: {fileID: 21300000, guid: 46172351de19d204e8e40b07cbe1343f, type: 3}
+  _forground: {fileID: 21300000, guid: 2e2f1505989979c45b382227754da899, type: 3}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: "You run up this unknown entity that lies under your bed and
     plunge your knife directly in what you believe to be its chest area. Letting
     out a bellowing roar, followed by intense thrashing, then finally releasing a

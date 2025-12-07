@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: ContinueWithKnife
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioImage: {fileID: 21300000, guid: 8e44bd094dfe53d4188d142a5ed3f86e, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: No, you must continue forward. As you slowly and carefully
     round the corner, you see that the bedroom window is wide open as well. Looking
     into your room, nothing seems to be out of place, but the vibe is now extremely

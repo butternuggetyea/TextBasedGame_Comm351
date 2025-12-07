@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: AmbushContinued
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioImage: {fileID: 21300000, guid: 13335d2492da72d42bfaeed7561fe0d0, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: The deafening screech rings in your brain, causing dizziness,
     fatigue, and eventually causing you to pass out. As you awake, you make your
     way downstairs to check for a body, but nothing remains. The door you had previously

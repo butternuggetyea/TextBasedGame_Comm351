@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: Book
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 7482667652216324306, guid: af60050f15f740d4894ba5250b7c5fb3, type: 3}
+  _senarioImage: {fileID: 21300000, guid: 576ccf4d1b59eb9478e1a60366f31d4a, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: You look at your pile of unread books on your bookshelf and
     reduce your options down to two choices. What will it be, a nice fiction novel
     or a spicy romance novel?
