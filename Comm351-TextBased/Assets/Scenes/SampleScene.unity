@@ -951,6 +951,7 @@ MonoBehaviour:
   - {fileID: 1361365050}
   - {fileID: 881741723}
   _speed: 0.0375
+  _growSpeed: 250
 --- !u!4 &910474939
 Transform:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: e5f68ad006857704f9ef318ad7d1312e, type: 3}
   _forground: {fileID: 21300000, guid: 69c5491d7bebff746b3a89689a92e46a, type: 3}
-  _soundclip: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: ae2ef31c9734aba4e822eac2aac64e18, type: 3}
   _playSoundIndex: 0
   _senarioDescription: Now that you have your celery it's time to choose your evening
     activity. Will it be watching a film or should you read one of your books you

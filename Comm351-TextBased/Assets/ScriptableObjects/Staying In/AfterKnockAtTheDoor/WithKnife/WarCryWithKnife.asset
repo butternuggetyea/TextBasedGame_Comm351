@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 13335d2492da72d42bfaeed7561fe0d0, type: 3}
   _forground: {fileID: 0}
-  _soundclip: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: 3d7717af303c26448acfc80bb9baf19d, type: 3}
   _playSoundIndex: 0
-  _senarioDescription: 'You call out to the mysterious figure who immediately flips
+  _senarioDescription: You call out to the mysterious figure who immediately flips
     itself to look at you with what you would assume to be its eyes.  Glowing brightly
     and with an immediate and sudden flash that leaves you blind. You feel a gust
     of wind blast past you, and hear a loud thud sound from outside. Once you regained
-    your sight, it was gone; the only thing remaining as evidence of its existence,
+    your sight, it was gone. The only thing remaining as evidence of its existence,
     a few footprints in the yard leading to the forest, leaving you wondering if
-    whatever it was was even human. (Must have been the wind - Ending) '
+    whatever it was was even human. \nMust have been the wind - Ending
   OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
   OptionADescription: Play Again?
   OptionBData: {fileID: 0}

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 13335d2492da72d42bfaeed7561fe0d0, type: 3}
   _forground: {fileID: 0}
-  _soundclip: {fileID: 0}
-  _playSoundIndex: 0
+  _soundclip: {fileID: 8300000, guid: 64c93b9a17014714fb561a7402f30830, type: 3}
+  _playSoundIndex: 678
   _senarioDescription: "Deciding to ambush the creature, you leave your bedroom while
     exclaiming, \u201CI guess I'll take a look downstairs\u201D, then go to hide
     behind the study room door. After a few minutes of silence, you hear footsteps

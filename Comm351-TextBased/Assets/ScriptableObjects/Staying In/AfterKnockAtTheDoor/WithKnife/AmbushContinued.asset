@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 13335d2492da72d42bfaeed7561fe0d0, type: 3}
   _forground: {fileID: 0}
-  _soundclip: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: 1b392b9504af94a49b72088aacb29241, type: 3}
   _playSoundIndex: 0
   _senarioDescription: The deafening screech rings in your brain, causing dizziness,
     fatigue, and eventually causing you to pass out. As you awake, you make your

@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: b785afa8e164fe24d9a03cf00777cd8c, type: 3}
   _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
   _senarioDescription: 'You double back to the kitchen to make sure you didn''t miss
     anything. Looking around you dont see anything out of the ordinary. No footprints,
-    nothing is broken, and the door is still locked and shut. You glance over the
-    counter when you notice the knives on the counter and realize that one is missing.
-    Should you take a knife for protection? '
+    nothing is broken, and the door is still locked. You glance over the counter
+    when you notice the knives on the counter and realize that one is missing. Should
+    you take a knife for protection? '
   OptionAData: {fileID: 11400000, guid: 5af87b2cd84c53343936e176209f097d, type: 2}
   OptionADescription: Take Knife
   OptionBData: {fileID: 11400000, guid: 1c2ce51cae9235c41961b0610688002a, type: 2}

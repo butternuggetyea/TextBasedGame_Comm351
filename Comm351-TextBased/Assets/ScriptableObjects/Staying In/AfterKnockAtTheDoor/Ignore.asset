@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: e5f68ad006857704f9ef318ad7d1312e, type: 3}
   _forground: {fileID: 0}
-  _soundclip: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: f2b11ec1897d75e4590f6e7e63a1e7cb, type: 3}
   _playSoundIndex: 0
   _senarioDescription: 'You go back to what you were doing and about 30 minutes later
     you start to feel sleepy. Should you continue or go to sleep now? '

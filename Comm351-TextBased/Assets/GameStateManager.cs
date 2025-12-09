@@ -21,6 +21,32 @@ public class GameStateManager : MonoBehaviour
 
     bool _canSkip;
 
+    private Vector3 _size;
+
+    public float _growSpeed;
+
+    bool grow = true;
+
+    private void Awake()
+    {
+        _size = _senarioSpriteRenderer.transform.lossyScale;
+    }
+
+    public void BackgroundBreath() 
+    {
+        if (_senarioSpriteRenderer.transform.localScale.x < (_size.x + .025f) && grow)
+        {
+            _senarioSpriteRenderer.transform.localScale = new Vector3(_senarioSpriteRenderer.transform.localScale.x + Time.deltaTime / _growSpeed, _senarioSpriteRenderer.transform.localScale.y + Time.deltaTime / _growSpeed, _senarioSpriteRenderer.transform.localScale.z);
+        }
+        else { grow = false; }
+
+        if (!grow && _senarioSpriteRenderer.transform.localScale.x > _size.x)
+        {
+            _senarioSpriteRenderer.transform.localScale = new Vector3(_senarioSpriteRenderer.transform.localScale.x - Time.deltaTime / _growSpeed, _senarioSpriteRenderer.transform.localScale.y - Time.deltaTime / _growSpeed, _senarioSpriteRenderer.transform.localScale.z );
+        }
+        else { grow = true; }
+    }
+
     private void LoadGameState() 
     {
         foreach (var button in _optionButtons)
@@ -57,6 +83,7 @@ public class GameStateManager : MonoBehaviour
             _senarioDescription.text = gameStateData._senarioDescription;
             LoadButtons();
         }
+        BackgroundBreath();
     }
 
     public IEnumerator LoadText() 

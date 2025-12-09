@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 1c16dd5623bc239449f76e78667a8428, type: 3}
   _forground: {fileID: 0}
-  _soundclip: {fileID: 0}
-  _playSoundIndex: 0
+  _soundclip: {fileID: 8300000, guid: 9ce636302e6c1bb479870c71484a09ec, type: 3}
+  _playSoundIndex: 360
   _senarioDescription: "You couldn't find anything out of the ordinary while investigating
     your home, yet you couldn't take your mind off of the topic. Trying to relax,
     you lay down in bed, shut your eyes, and start to drift asleep. As you are halfway

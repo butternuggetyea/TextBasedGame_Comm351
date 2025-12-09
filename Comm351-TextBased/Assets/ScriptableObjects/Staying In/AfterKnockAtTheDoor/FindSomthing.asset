@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 62180da163500ef4f8de3b8dba025640, type: 3}
   _forground: {fileID: 21300000, guid: 72f5c4dd65f80bd44906b2c07109a836, type: 3}
-  _soundclip: {fileID: 0}
-  _playSoundIndex: 0
+  _soundclip: {fileID: 8300000, guid: f2b11ec1897d75e4590f6e7e63a1e7cb, type: 3}
+  _playSoundIndex: 226
   _senarioDescription: "You run into the kitchen, the first thing that catches your
     eye is a bright red apple sitting on the counter. You quickly grab it and run
     back to the door to give the child their treat. \u201DTank you\u201D he says.

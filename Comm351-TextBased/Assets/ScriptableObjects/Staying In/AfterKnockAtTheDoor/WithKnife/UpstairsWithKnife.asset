@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: d92bcdc89c0763546ab715d9abe47570, type: 3}
   _forground: {fileID: 0}
-  _soundclip: {fileID: 0}
+  _soundclip: {fileID: 8300000, guid: 3b4819a09714c7841a4aad36e6d55687, type: 3}
   _playSoundIndex: 0
   _senarioDescription: As you slowly creep up the stairs, you come to the landing,
     where you have to decide. Check your bedroom first or check the study first.

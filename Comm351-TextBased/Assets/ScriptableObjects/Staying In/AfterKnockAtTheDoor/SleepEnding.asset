@@ -17,7 +17,8 @@ MonoBehaviour:
   _soundclip: {fileID: 0}
   _playSoundIndex: 0
   _senarioDescription: You go around making sure all your doors are locked and the
-    lights are shut off and go upstairs to take you slumber. \nYou get the eepy ending.
+    lights are shut off and go upstairs to take your slumber. \nYou get the eepy
+    ending.
   OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
   OptionADescription: Play Again?
   OptionBData: {fileID: 0}

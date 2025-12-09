@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
   _senarioImage: {fileID: 21300000, guid: 1c16dd5623bc239449f76e78667a8428, type: 3}
   _forground: {fileID: 0}
-  _soundclip: {fileID: 0}
-  _playSoundIndex: 0
+  _soundclip: {fileID: 8300000, guid: bf7017106dc1c6a40b15013efddba882, type: 3}
+  _playSoundIndex: 340
   _senarioDescription: "You pretend that you couldn't find anything out of the ordinary
     while investigating your home. You lie down in bed, shut your eyes, and pretend
     to drift to sleep. As you are halfway out of consciousness, you feel something
@@ -25,7 +25,7 @@ MonoBehaviour:
     The smoke burns your eyes and lungs as you breathe it in, slowly losing consciousness. 
     When you awake, the smoke has cleared, and the creature is nowhere to be seen.
     In your hand, grasped firmly, is a black twig. Leaving you wondering what the
-    hell that thing was. Snappy Tappy - Ending"
+    hell that thing was. \\nSnappy Tappy - Ending"
   OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
   OptionADescription: Play Again?
   OptionBData: {fileID: 0}
