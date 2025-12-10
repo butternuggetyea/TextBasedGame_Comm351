@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: Run
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: a9d819b502ddc384e9417b754902c8ca, type: 3}
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _snackCheck: 0
+  _dinnerCheck: 0
+  _dinner: 0
+  _reset: 0
+  _senarioDescription: "You don't even give it a second thought. Your flight instinct
+    is so strong that you just book it out that back door not even looking back for
+    a moment. Before you even knew it you were already in the nearby town. You managed
+    to find your way to the sheriff\u2019s office who were thankfully open late because
+    of halloween. They informed you that you could sleep here for the night and that
+    they would check it out in the morning. When morning came you and the sheriff
+    returned to your home where nothing was found. The only clue to anything was
+    the footprint that left the sheriff stumped. Leaving you not only concerned for
+    its potential return and embarrassed that the sheriff thinks you're crazy now. 
+    \\nRun forest - Ending "
+  OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
+  OptionADescription: Play Again?
+  OptionBData: {fileID: 0}
+  OptionBDescription: 
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

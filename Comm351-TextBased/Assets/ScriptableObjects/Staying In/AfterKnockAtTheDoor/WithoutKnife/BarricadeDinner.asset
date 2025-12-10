@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: BarricadeDinner
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: e5f68ad006857704f9ef318ad7d1312e, type: 3}
+  _forground: {fileID: 21300000, guid: f7fe7aaa07cfe4b46843f37783c742f6, type: 3}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _snackCheck: 0
+  _dinnerCheck: 0
+  _dinner: 0
+  _reset: 0
+  _senarioDescription: 'You look around for anything that you could possibly use
+    to block the door with. First thing you see is an old locker that looks like
+    the perfect fit for the job. You go to pick up the locker and successfully and
+    proceed to barricade the door to the basement. Just as you finished setting it
+    up. Bang! Bang! Bang! That thing is trying to get in but your barricade holds
+    strong. After a few minutes you hear it walk away, leaving you uneasy and suspicious.
+    You decided it would be best to camp down here for the night. In the morning
+    you listen for anything weird upstairs, after a while of nothing you decide to
+    remove your barricade and take a look around. Peaking out into the living room
+    you don''t see anyone, but you do notice the front door wide open. Upon getting
+    closer you notice some  prints leading to woods. Leaving you an uneasy feeling
+    about its potential return. \nI''ll get the smores - Ending '
+  OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
+  OptionADescription: Play Again?
+  OptionBData: {fileID: 0}
+  OptionBDescription: 
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

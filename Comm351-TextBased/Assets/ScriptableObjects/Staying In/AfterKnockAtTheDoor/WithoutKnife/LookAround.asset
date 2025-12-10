@@ -12,21 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
   m_Name: LookAround
   m_EditorClassIdentifier: Assembly-CSharp::GameStateData
-  _senarioImage: {fileID: 21300000, guid: 46172351de19d204e8e40b07cbe1343f, type: 3}
+  _senarioImage: {fileID: 21300000, guid: d92bcdc89c0763546ab715d9abe47570, type: 3}
   _forground: {fileID: 0}
   _soundclip: {fileID: 0}
   _playSoundIndex: 0
-  _senarioDescription: 'You walk around your room looking intensely for anything
-    out of place. Last place to check is under your bed. Getting close to the bed,
-    you bend over to take a look, but nothing is there. As you begin to walk away,
-    a pure blackened, void-like hand reaches out and grabs your ankle. You shudder
-    in fear as this creature crawls out from under the bed, approaches you, and towers
-    over you. Slowly unhinging its jaw to reveal its mouth that looks like a portal
-    to another dimension, framed by razor-sharp teeth. In one quick motion, this
-    creature swallows you whole. (Not even the bones - Ending) '
-  OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
-  OptionADescription: Play Again?
-  OptionBData: {fileID: 0}
-  OptionBDescription: 
+  _senarioDescription: 'You look intensely around the room analyzing every inch of
+    it. Just as you were about to give up and lay down you caught a glimpse of something
+    moving under your bed. Startled, you let out a gasp alerting the creature. Suddenly
+    a tall black creature with a human-like body, slim in stature, but with a powerful
+    aura arises from under your bed. Your flight or fight reflexes immediately kicking
+    into high gear choosing flight as the default. You sprint out to the landing
+    and quickly decide. Go into the study or go downstairs. '
+  OptionAData: {fileID: 11400000, guid: d38a25b3c664aca408c41a494c487dac, type: 2}
+  OptionADescription: Study
+  OptionBData: {fileID: 11400000, guid: 512aaf31aec051a45868c485818a7969, type: 2}
+  OptionBDescription: Downstairs
   OptionCData: {fileID: 0}
   OptionCDescription: 

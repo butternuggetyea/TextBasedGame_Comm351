@@ -945,6 +945,8 @@ MonoBehaviour:
   gameStateData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
   _senarioSpriteRenderer: {fileID: 430036452}
   _forground: {fileID: 1511473898}
+  _BadSnack: {fileID: 11400000, guid: babdee9b26add6a469cf0474847fddcb, type: 2}
+  _BadDinner: {fileID: 11400000, guid: 307c4e1a4e6cf3240bc5995fa1930319, type: 2}
   _senarioDescription: {fileID: 342480076}
   _optionButtons:
   - {fileID: 2132555311}

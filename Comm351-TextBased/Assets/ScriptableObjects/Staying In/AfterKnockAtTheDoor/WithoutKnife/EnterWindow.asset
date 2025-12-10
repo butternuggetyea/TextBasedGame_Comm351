@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: EnterWindow
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: 46172351de19d204e8e40b07cbe1343f, type: 3}
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _snackCheck: 1
+  _dinnerCheck: 0
+  _dinner: 0
+  _senarioDescription: 'You think to yourself that jumping off the roof would not
+    end well for you and decide to enter the home through the bedroom window.Slowly
+    approaching the door you peek out into the landing. You see the creature still
+    in the study looking for you. Should you make a break for it or try to sneak
+    past. '
+  OptionAData: {fileID: 11400000, guid: fd91847e89c85e042a3a97fb6a99d71f, type: 2}
+  OptionADescription: Sneak
+  OptionBData: {fileID: 11400000, guid: 512aaf31aec051a45868c485818a7969, type: 2}
+  OptionBDescription: Run
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

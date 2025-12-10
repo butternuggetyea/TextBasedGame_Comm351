@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: HideBasement
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: 13335d2492da72d42bfaeed7561fe0d0, type: 3}
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _senarioDescription: "You manage to squeeze yourself into a bin on the shelf. Moments
+    after the creature slowly comes down the basement stairs. As it approaches you
+    can hear its deep breaths getting closer. It almost sounds like it\u2019s sniffing
+    the air. The breathing gets louder and louder suddenly the breathing stops. You
+    lay here frozen in fear as the lid to your bin is slowly cracked open. Your final
+    thought, you wish you hid better. \\nThey found us guys - Ending "
+  OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
+  OptionADescription: Play Again?
+  OptionBData: {fileID: 0}
+  OptionBDescription: 
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

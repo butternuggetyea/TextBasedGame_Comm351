@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: BarricadeSnack
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: 13335d2492da72d42bfaeed7561fe0d0, type: 3}
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _senarioDescription: 'You look around for anything that you could possibly use
+    to block the door with. First thing you see is an old locker that looks like
+    the perfect fit for the job. You go to pick up the locker and as you try to lift
+    your body gives out. You are completely drained and the adrenaline is wearing
+    off leaving you fatigued. That along with the lack of food eaten today leaves
+    you helpless to lift this locker. As you go to look for something else to use
+    the creature is already descending the stairs and approaches you. Towering over
+    you and slowly unhinging its jaw to reveal its mouth that looks like a portal
+    to another dimension, framed by razor-sharp teeth. In one quick motion, this
+    creature swallows you whole. \nMore protein! - Ending '
+  OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
+  OptionADescription: Play Again?
+  OptionBData: {fileID: 0}
+  OptionBDescription: 
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

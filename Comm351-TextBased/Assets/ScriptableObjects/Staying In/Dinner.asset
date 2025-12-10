@@ -16,6 +16,9 @@ MonoBehaviour:
   _forground: {fileID: 0}
   _soundclip: {fileID: 0}
   _playSoundIndex: 0
+  _snackCheck: 0
+  _dinnerCheck: 0
+  _dinner: 1
   _senarioDescription: Looking through your cupboards you find a box of mac and cheese,
     which sounds just fine for the night but you remembered that you have some chicken
     and potatoes in the fridge that you could make instead. Should you have mac and

@@ -9,6 +9,12 @@ public class GameStateData : ScriptableObject
     public AudioClip _soundclip;
     public int _playSoundIndex;
 
+    public bool _snackCheck;
+    public bool _dinnerCheck;
+
+    public bool _dinner;
+    public bool _reset;
+
     public string _senarioDescription;
 
     public GameStateData OptionAData;

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: Kitchen
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: b785afa8e164fe24d9a03cf00777cd8c, type: 3}
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _senarioDescription: As you make it into the kitchen the adrenaline reaches its
+    peak giving you the power you need to either escape now or fight to the end.
+  OptionAData: {fileID: 11400000, guid: ac905caaf9c72b247aec02080dc46cec, type: 2}
+  OptionADescription: Fight
+  OptionBData: {fileID: 11400000, guid: 402532efed35e414ebae752439b0065c, type: 2}
+  OptionBDescription: Run
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

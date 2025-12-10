@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: Fight
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: b785afa8e164fe24d9a03cf00777cd8c, type: 3}
+  _forground: {fileID: 21300000, guid: c25055af9fa165d4cb8422716b7618c5, type: 3}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _senarioDescription: Now is the time to hold your ground. Grabbing the knife and
+    gripping it for dear life, you set yourself in a stance ready to take on this
+    creature as it sprints towards you. Sprinting down the stairs, here it comes.
+    As you take a breath and blink, upon opening your eyes, it is already in your
+    face, passing the first blow to you. The sharp pain hits your abdomen as you
+    cough up blood. The adrenaline hits you, this allows you to dodge the next blow.
+    While the creature recovers from its attack by regaining balance you take the
+    advantage and deal a fatal blow to the back of the neck. Dirty tactics maybe
+    but you do what you must to survive. The creature lets out a bellowing roar,
+    followed by an intense thrashing, then finally releasing a blinding light. Upon
+    opening your eyes the only thing remaining is a silhouette on the kitchen floor.
+    After all that you still have no idea what that thing was. \nStand your ground
+    - Ending
+  OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
+  OptionADescription: Play Again?
+  OptionBData: {fileID: 0}
+  OptionBDescription: 
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

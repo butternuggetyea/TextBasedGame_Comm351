@@ -16,6 +16,10 @@ MonoBehaviour:
   _forground: {fileID: 0}
   _soundclip: {fileID: 0}
   _playSoundIndex: 0
+  _snackCheck: 0
+  _dinnerCheck: 0
+  _dinner: 0
+  _reset: 1
   _senarioDescription: You find yourself at home alone on halloween night, crisp
     air and leaves falling all around. Looks like the weather is bad, so you decide
     that you should stay in for the night.

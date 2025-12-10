@@ -12,6 +12,10 @@ public class GameStateManager : MonoBehaviour
 
     public SpriteRenderer _forground;
 
+    public GameStateData _BadSnack;
+    public GameStateData _BadDinner;
+
+    bool _dinner = false;
 
     public TMP_Text _senarioDescription;
 
@@ -55,6 +59,17 @@ public class GameStateManager : MonoBehaviour
             button.gameObject.SetActive(false);
             button.onClick.RemoveAllListeners();
         }
+
+        if (gameStateData._reset) 
+        {
+            _dinner = false;
+        }
+
+        if (gameStateData._dinner) 
+        {
+            _dinner = true;
+        }
+
         GetComponent<AudioManager>().StopAllEffects();
         _senarioSpriteRenderer.sprite = gameStateData._senarioImage;
 
@@ -137,8 +152,21 @@ public class GameStateManager : MonoBehaviour
             button.onClick.RemoveAllListeners();
         }
 
-        gameStateData = gameStateData.OptionBData;
+        if (gameStateData._dinnerCheck && !_dinner) 
+        {
+            gameStateData = _BadSnack;
+        }
+        else if (gameStateData._snackCheck && _dinner )
+        {
+            gameStateData = _BadDinner;
+        }
+        else
+        {
+            gameStateData = gameStateData.OptionBData;
+        }
+
         LoadGameState();
+
     }
     private void LoadOptionC()
     {

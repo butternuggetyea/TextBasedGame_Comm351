@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: ExitWindow
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: 207a31f212725d248ab130d7d6b10ddc, type: 3}
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _senarioDescription: 'Exiting through the window creates some distance, now your
+    next plan can be made. You could try and re-enter the home via a different window
+    or jump off the roof to take the quick way out. '
+  OptionAData: {fileID: 11400000, guid: 1a78f2c6ea1e3364d973778094fe7e76, type: 2}
+  OptionADescription: Jump
+  OptionBData: {fileID: 11400000, guid: 774cb5f509e7bdd48ab018dab5da3b77, type: 2}
+  OptionBDescription: Re-Enter
+  OptionCData: {fileID: 0}
+  OptionCDescription: 

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bcf558b34062c64797acaca0d6206e9, type: 3}
+  m_Name: Jump
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateData
+  _senarioImage: {fileID: 21300000, guid: d2065951c2d3c674bb607be4c83f86b3, type: 3}
+  _forground: {fileID: 0}
+  _soundclip: {fileID: 0}
+  _playSoundIndex: 0
+  _senarioDescription: "You take the fall like a champ\u2026 besides the broken legs
+    that leave you writhing in agony. As you let out your third scream from pain,
+    your body gives out on you and you pass out in the yard. You awake to the sound
+    of a plane flying overhead. You thought you would be dead for sure though your
+    phone is still cut and you have no way of contacting help for your legs. Crawling
+    to your vehicle you manage to get in and start the car. Your right leg is only
+    fractured so you are barely able to drive. As you start to head out the driveway
+    you see in the distance behind a tree, glowing eyes staring directly at you,
+    then they disappear. You think to yourself that maybe it's time to move out.
+    Parkour! - Ending "
+  OptionAData: {fileID: 11400000, guid: e0b11ef36feb6e84c9e1ceca7e0fcba6, type: 2}
+  OptionADescription: Play Again?
+  OptionBData: {fileID: 0}
+  OptionBDescription: 
+  OptionCData: {fileID: 0}
+  OptionCDescription: 
