@@ -51,70 +51,20 @@ public class GameStateManager : MonoBehaviour
         else { grow = true; }
     }
 
-    private void LoadGameState() 
-    {
-        foreach (var button in _optionButtons)
-        {
-           
-            button.gameObject.SetActive(false);
-            button.onClick.RemoveAllListeners();
-        }
-
-        if (gameStateData._reset) 
-        {
-            _dinner = false;
-        }
-
-        if (gameStateData._dinner) 
-        {
-            _dinner = true;
-        }
-
-        GetComponent<AudioManager>().StopAllEffects();
-        _senarioSpriteRenderer.sprite = gameStateData._senarioImage;
-
-        if (gameStateData._forground == null)
-        {
-            _forground.enabled = false;
-        }
-        else 
-        {
-            _forground.enabled = true;
-            _forground.sprite = gameStateData._forground;
-        }
-
-        StopAllCoroutines();
-
-        StartCoroutine(LoadText());
-    }
-
-
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0) && _canSkip) 
-        {
-            _canSkip = false;
-            StopAllCoroutines();
-            _senarioDescription.text = gameStateData._senarioDescription[0];
-            LoadButtons();
-        }
-        BackgroundBreath();
-    }
-
-    public IEnumerator LoadText(int _senarioIndex = 0) 
+    public IEnumerator LoadText(int _senarioIndex = 0)
     {
         _senarioDescription.text = null;
         _canSkip = true;
         bool _play = true;
         int index = 0;
 
-        foreach (char letter in gameStateData._senarioDescription[_senarioIndex]) 
+        foreach (char letter in gameStateData._senarioDescription[_senarioIndex])
         {
             _senarioDescription.text += letter;
 
-            if (gameStateData._playSoundIndex == index ) 
+            if (gameStateData._playSoundIndex == index)
             {
-                if (gameStateData._soundclip != null) 
+                if (gameStateData._soundclip != null)
                 {
                     GetComponent<AudioManager>().PlayOnCharIndex(gameStateData._soundclip);
                 }
@@ -133,11 +83,24 @@ public class GameStateManager : MonoBehaviour
         {
             LoadButtons();
         }
-        else 
+        else
         {
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
             StartCoroutine(LoadText(_senarioIndex + 1));
         }
+    }
+
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && _canSkip) 
+        {
+            _canSkip = false;
+            StopAllCoroutines();
+            _senarioDescription.text = gameStateData._senarioDescription[0];
+            LoadButtons();
+        }
+        BackgroundBreath();
     }
 
 
@@ -150,7 +113,7 @@ public class GameStateManager : MonoBehaviour
         }
 
         gameStateData = gameStateData.OptionAData;
-        LoadGameState();
+        StartCoroutine(LoadText());
     }
 
     private void LoadOptionB()
@@ -174,7 +137,7 @@ public class GameStateManager : MonoBehaviour
             gameStateData = gameStateData.OptionBData;
         }
 
-        LoadGameState();
+        StartCoroutine(LoadText());
 
     }
     private void LoadOptionC()
@@ -186,7 +149,7 @@ public class GameStateManager : MonoBehaviour
         }
 
         gameStateData = gameStateData.OptionCData;
-        LoadGameState();
+        StartCoroutine(LoadText());
     }
 
     private void LoadButtons() 
@@ -214,7 +177,7 @@ public class GameStateManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        LoadGameState();
+        StartCoroutine(LoadText());
     }
 
 }
