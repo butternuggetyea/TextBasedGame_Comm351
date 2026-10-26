@@ -39,7 +39,7 @@ public class AudioManager : MonoBehaviour
     {
         _source.volume = volume/100;
         _source.pitch = Random.Range(1, 1.25f);
-        _source.PlayOneShot(_clips[Random.Range(0, 2)]);
+        _source.PlayOneShot(_clips[Random.Range(0, _clips.Length-1)]);
     }
 
 }

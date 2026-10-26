@@ -95,19 +95,20 @@ public class GameStateManager : MonoBehaviour
         {
             _canSkip = false;
             StopAllCoroutines();
-            _senarioDescription.text = gameStateData._senarioDescription;
+            _senarioDescription.text = gameStateData._senarioDescription[0];
             LoadButtons();
         }
         BackgroundBreath();
     }
 
-    public IEnumerator LoadText() 
+    public IEnumerator LoadText(int _senarioIndex = 0) 
     {
         _senarioDescription.text = null;
         _canSkip = true;
         bool _play = true;
         int index = 0;
-        foreach (char letter in gameStateData._senarioDescription) 
+
+        foreach (char letter in gameStateData._senarioDescription[_senarioIndex]) 
         {
             _senarioDescription.text += letter;
 
@@ -128,7 +129,15 @@ public class GameStateManager : MonoBehaviour
             yield return new WaitForSecondsRealtime(_speed);
         }
         _canSkip = false;
-        LoadButtons();
+        if (_senarioIndex == gameStateData._senarioDescription.Length - 1)
+        {
+            LoadButtons();
+        }
+        else 
+        {
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+            StartCoroutine(LoadText(_senarioIndex + 1));
+        }
     }
 
 

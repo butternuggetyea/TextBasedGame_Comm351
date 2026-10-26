@@ -15,7 +15,7 @@ public class GameStateData : ScriptableObject
     public bool _dinner;
     public bool _reset;
 
-    public string _senarioDescription;
+    public string[] _senarioDescription;
 
     public GameStateData OptionAData;
     public string OptionADescription;
